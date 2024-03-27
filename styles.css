@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(82.94deg, #f0f2fb 50.57%, #fefeff 77.18%);
+}
+
+/* selector class: diawali . */
+.header {
+  display: flex;
+  padding: 16px 120px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item.divider {
+  width: 1px;
+  height: 40px;
+  background-color: #e1e3ef;
+}
+
+.menu-item a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0b0c0e;
+  text-decoration: none;
+}
+
+.menu-item {
+  margin-right: 30px;
+}
+
+.action {
+  display: flex;
+}
+
+.action-item {
+  margin-left: 8px;
+}
+
+.btn-blue {
+  background-color: #004eff;
+  padding: 13px 32px;
+  border-radius: 66px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  border: 1px solid #e2e4e9;
+  padding: 13px 32px;
+  border-radius: 66px;
+  color: #0b0c0e;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 16px;
+  padding: 0 120px;
+}
+
+.hero .hero-left {
+  display: flex;
+  align-items: center;
+}
+
+.hero-left .headline {
+  margin-bottom: 32px;
+}
+
+.headline h1 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  color: #0a0b0d;
+  margin-bottom: 1rem;
+}
+
+.headline p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b616e;
+  margin-bottom: 3rem;
+}
+
+/* info */
+.container .info {
+  padding: 40px 176px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.info-item img {
+  margin-bottom: 0.8rem;
+}
+
+.info-item .title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0a0b0d7a;
+}
+
+.info-item .price {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 42px;
+  color: #0a0b0d;
+}
+
+.info-item .percentage {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.increase {
+  color: #58bd7d;
+}
+
+.decrease {
+  color: #ea3943;
+}
